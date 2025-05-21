@@ -6,7 +6,6 @@ export const EarningsQ2 = ({...rest}) => {
     return (
         <StoryCard 
             level={3}
-            size={undefined}
             headline="Earnings: Our Q2 results"
             description="Delivered year-over-year revenue and EPS growth"
             cta="See highlights"
