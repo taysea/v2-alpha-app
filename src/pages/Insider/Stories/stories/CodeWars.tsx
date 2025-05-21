@@ -6,7 +6,6 @@ export const CodeWars = ({...rest}) => {
     return (
         <StoryCard 
             level={3}
-            size={undefined}
             headline="HPE CodeWars 2025"
             description="Where the war is won with brainpower"
             cta="Volunteer today"
