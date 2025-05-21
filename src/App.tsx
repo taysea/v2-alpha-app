@@ -1,14 +1,12 @@
-import {
-  Grommet,
-} from "grommet";
-import { LinkNext } from "grommet-icons";
+import { Grommet } from "grommet";
 import { hpePop } from "grommet-theme-hpe";
-import { StickerSheet } from "./pages";
+import { Insider, StickerSheet } from "./pages";
 
 function App() {
   return (
     <Grommet theme={hpePop} full="min">
-      <StickerSheet />
+      <Insider />
+      {/* <StickerSheet /> */}
     </Grommet>
   );
 }
