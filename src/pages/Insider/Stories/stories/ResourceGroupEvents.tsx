@@ -6,7 +6,6 @@ export const ResourceGroupEvents = ({...rest}) => {
     return (
         <StoryCard 
             level={3}
-            size={undefined}
             headline="Resource Group events"
             description="News and updates for June"
             cta="View upcoming events"
