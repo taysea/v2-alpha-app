@@ -16,7 +16,7 @@ const areas = [
 
 const columns = ['flex', 'flex', 'flex', 'flex'];
 const rows = [['large', 'auto'], ['small', 'auto']];
-const gap = 'xxlarge';
+const gap = 'xlarge';
 
 export const Stories = ({...rest}) => {
     return (
@@ -35,7 +35,7 @@ export const Stories = ({...rest}) => {
                 <CelebrateTeam gridArea="story-5" />
                 <ResourceGroupEvents gridArea="story-6" />
             </Grid>
-            <Box pad="xxlarge">
+            <Box pad="large">
                 <Button 
                     label="Get more HPE Insider stories" 
                     icon={<LinkDown />}
@@ -43,7 +43,7 @@ export const Stories = ({...rest}) => {
                     onClick={() => {}} 
                     primary
                     alignSelf="center"
-                    // size="xlarge"
+                    size="large"
                 />
             </Box>
         </Box>

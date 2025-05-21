@@ -25,7 +25,7 @@ export const Insider = () => {
 
     return (
         <ThemeContext.Extend value={adjustedTheme}>
-            <Page pad={{ bottom: '3xlarge' }}>
+            <Page pad={{ bottom: '3xlarge' }} kind='full'>
                 <Box background={{dark: true}}>
                     <PageContent 
                         background={{

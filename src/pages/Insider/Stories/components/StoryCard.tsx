@@ -21,7 +21,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({
     href, 
     image, 
     level, 
-    size,
+    size = 'small',
     pad = 'xlarge',
     ...rest
 }) => {
@@ -36,11 +36,11 @@ export const StoryCard: React.FC<StoryCardProps> = ({
                     <Paragraph margin="none">{description}</Paragraph>
                 </Box>
                 <Anchor 
-                label={cta} 
-                icon={<LinkNext aria-label={undefined} />} 
-                href={href} 
-                reverse 
-                size='medium'
+                    label={cta} 
+                    icon={<LinkNext aria-label={undefined} />} 
+                    href={href} 
+                    reverse 
+                    size='medium'
                 />
             </Box>
         </Box>
