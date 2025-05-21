@@ -6,7 +6,7 @@ export const HPEDiscover = ({...rest}) => {
     return (
         <StoryCard 
             level={3}
-            size="xxlarge"
+            size="large"
             headline="Register for ATM Live! from Discover Las Vegas"
             description="Unlock the future of AI"
             cta="Register now"

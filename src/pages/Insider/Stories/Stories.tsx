@@ -26,7 +26,7 @@ export const Stories = ({...rest}) => {
                 columns={columns} 
                 rows={rows}
                 gap={gap} 
-                pad="xxlarge"
+                pad={{vertical: 'xxlarge'}}
             >
                 <HPEDiscover gridArea="story-1" />
                 <HPENvidia gridArea="story-2" />

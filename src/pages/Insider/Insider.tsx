@@ -19,10 +19,7 @@ export const Insider = () => {
                     light: '#F7F7F7',
                     dark: '#292D3A'
                 }
-            },
-            // edgeSize: {
-            //     '4xlarge': '96px',
-            // },
+            }
         },
     };
 
@@ -45,7 +42,7 @@ export const Insider = () => {
                         color: 'bkg-component-primary'
                     }}
                 >
-                    <Stories as="section" border={{style: 'dashed'}}/>
+                    <Stories as="section" />
                 </PageContent>
             </Page>
         </ThemeContext.Extend>
