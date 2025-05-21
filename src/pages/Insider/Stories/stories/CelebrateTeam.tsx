@@ -6,7 +6,6 @@ export const CelebrateTeam = ({...rest}) => {
     return (
         <StoryCard 
             level={3}
-            size={undefined}
             headline="Celebrate your teammates"
             description="And save the date to be celebrated yourself!"
             cta="Browse celebrations"
